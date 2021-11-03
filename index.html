@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>立体浮世絵でKABUKU!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="first-contents">
+      <h1>立体浮世絵でKABUKU!</h1>
+      <h2 class="text1">
+        映画などの映像文化が登場する前の、視覚文化の一つとして<br>
+        浮世絵の一種で、多色刷りの錦絵のおもちゃ絵から、<br>
+        組上げ灯籠をARで紹介<br>
+      </h2>
+    </section>
+
+    <section class="contents">
+      <img src="images/nowprinting.png" alt="AR marker" width="230px">
+      <div class="main-contents">
+        <h3 class="howto-view">
+          作品の鑑賞方法
+        </h3>
+        <h4>パソコンやタブレットから見ている方<br></h4>
+        <p class="text2">
+          方法１＞<br>
+          方法２＞<br>
+          方法３＞ＡＲマーカーを出力し、出現したい場所にＡＲマーカーを置き、スマホをかざし
+          てください。<br>
+          <br>
+        </p>
+        <h4>
+          スマホで見ている方<br>
+        </h4>
+        <p>
+          方法１＞スマホやタブレットがある方<br>
+        </p>
+        <h3 class="howto-enjoy">
+          作品の楽しみ方
+        </h3>
+        <p class="text2">
+          昔は、夕暮れ時に店の軒先や神社の境内に置き、電球やろうそくの光の中で楽しみました。<br>
+          昔を追体験するのもよいですし、好きな場所に置いていただき、お楽しみください。<br>
+          その際、画面をスクショいただき、＃kabukuAR　でツイッターやインスタグラムなど、<br>
+          ＳＮＳに投稿ください。<br>
+        </p>
+      </div>
+
+      <div class="footer">
+        <h3 class="previous">
+          過去の鑑賞方法の図や動画
+        </h3>
+        <h3 class="sns">
+          ツイッターやインスタから集めた＃タグを披露
+        </h3>
+        <div class="container">
+          組上げ灯籠は、ご自身で組み立てて遊ぶこともできます。<br>
+          <a href="url" class="imaeg-download">こちらより画像はダウンロードください。</a>
+          <!-- <img src="{{site.url}}{{site.baseurl}}/assets/images/title.png" alt="#Fik 握手会" width="230vw"> -->
+          <br>
+        </div>
+      </div>
+    </section>
+
+    <!-- 動画埋め込み例 -->
+    <!--(videoタグで埋め込み)-->
+      <!--
+        <video
+          class="video-content"
+          src="movie.mp4"
+          controls
+          preload="auto"
+          controlsList="nodownload"
+        ></video>
+      -->
+        <div class="wrapper">
+      <div class="iframe-wrapper">
+        <!--(YouTubeから動画の埋め込み)-->
+        <iframe
+          class="iframe-content"
+          src="https://www.youtube.com/embed/lqsZcKxRjlE?rel=0&modestbranding=1"
+          title="YouTube video player"
+          frameborder="0"
+          rel="0"
+          picture-in-picture
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; fullscreen"
+          ;
+          allowfullscreen
+        ></iframe>
+
+        <!--(Google Driveから動画の埋め込み)-->
+        <!--
+        <iframe
+          class="iframe-content"
+          src="https://drive.google.com/file/d/1Ie1fb-MWv6RLuI5EZMu73U0KUDIiFqYq/preview"
+          frameborder="0"
+          scrolling="no"
+          seamless=""
+          allow="fullscreen"
+        ></iframe>
+        <div
+          style="
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            opacity: 0;
+            right: 0px;
+            top: 0px;
+          "
+        ></div>
+        -->
+     </div>
+   </div>
+  </body>
+</html>
